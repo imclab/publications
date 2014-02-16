@@ -1,0 +1,150 @@
+{
+  "id": "d39cecd078dce00e0acfeb19b6a66336",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "d39cecd078dce00e0acfeb19b6a66336",
+      "creator": "",
+      "title": "testify",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-15T22:37:38.535Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_f3477252ceb8a88a3cb34a951d1b58d8",
+        "figure_f20a31e792847b2e94e6d1bd13d291d4"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": [
+        "remark_319eaa00a500fb336b85f0a3a9172290"
+      ]
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Start typdfing meh."
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "John Doe",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "text_a068ee1acdba01521827c93665c993d5": {
+      "type": "text",
+      "id": "text_a068ee1acdba01521827c93665c993d5",
+      "source_id": "",
+      "content": "Enter capasdf aasdf asftion"
+    },
+    "figure_f3477252ceb8a88a3cb34a951d1b58d8": {
+      "type": "figure",
+      "id": "figure_f3477252ceb8a88a3cb34a951d1b58d8",
+      "image": "figure_f3477252ceb8a88a3cb34a951d1b58d8.png",
+      "image_url": "",
+      "label": "Figure 1",
+      "caption": "text_a068ee1acdba01521827c93665c993d5"
+    },
+    "figure_f3477252ceb8a88a3cb34a951d1b58d8.png": {
+      "type": "blob_reference",
+      "id": "figure_f3477252ceb8a88a3cb34a951d1b58d8.png",
+      "path": [
+        "figure_f3477252ceb8a88a3cb34a951d1b58d8",
+        "image"
+      ],
+      "blob": "blob_a3fc6825e835dded4f0621bc49a54178"
+    },
+    "text_ba8eb2874124de06b85e55d8a4c1497d": {
+      "type": "text",
+      "id": "text_ba8eb2874124de06b85e55d8a4c1497d",
+      "source_id": "",
+      "content": "sdfEnter caption"
+    },
+    "figure_f20a31e792847b2e94e6d1bd13d291d4": {
+      "type": "figure",
+      "id": "figure_f20a31e792847b2e94e6d1bd13d291d4",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 2",
+      "caption": "text_ba8eb2874124de06b85e55d8a4c1497d"
+    },
+    "remark_319eaa00a500fb336b85f0a3a9172290": {
+      "type": "remark",
+      "id": "remark_319eaa00a500fb336b85f0a3a9172290",
+      "title": "",
+      "description": "",
+      "creator": "Oliver Buchtala",
+      "created_at": "2014-02-16T11:42:20.223Z"
+    },
+    "remark_reference_3a89ceab9873a3f798e15c37d1af3b45": {
+      "type": "remark_reference",
+      "id": "remark_reference_3a89ceab9873a3f798e15c37d1af3b45",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        15,
+        18
+      ],
+      "target": "remark_319eaa00a500fb336b85f0a3a9172290"
+    },
+    "strong_04a381453d173c9aaed8627976a9867e": {
+      "type": "strong",
+      "id": "strong_04a381453d173c9aaed8627976a9867e",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        0,
+        5
+      ]
+    }
+  }
+}
