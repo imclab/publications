@@ -1,0 +1,100 @@
+{
+  "id": "8f46ad5b500886c54820dc8ff975a8e4",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "8f46ad5b500886c54820dc8ff975a8e4",
+      "creator": "",
+      "title": "Oliver 3000",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-17T13:19:17.844Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_5f002b3b1f63010b6618f7d1ebdff5f4"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Hallo Welt. Ich bin ein dokument."
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "John Doe",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "text_b87408f340f7f89eede6f226d0c84b19": {
+      "type": "text",
+      "id": "text_b87408f340f7f89eede6f226d0c84b19",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_5f002b3b1f63010b6618f7d1ebdff5f4": {
+      "type": "figure",
+      "id": "figure_5f002b3b1f63010b6618f7d1ebdff5f4",
+      "image": "figure_5f002b3b1f63010b6618f7d1ebdff5f4.png",
+      "image_url": "",
+      "label": "Figure 1",
+      "caption": "text_b87408f340f7f89eede6f226d0c84b19"
+    },
+    "figure_5f002b3b1f63010b6618f7d1ebdff5f4.png": {
+      "type": "blob_reference",
+      "id": "figure_5f002b3b1f63010b6618f7d1ebdff5f4.png",
+      "path": [
+        "figure_5f002b3b1f63010b6618f7d1ebdff5f4",
+        "image"
+      ],
+      "blob": "blob_72a422844089547440215535d1e59eff"
+    }
+  }
+}
