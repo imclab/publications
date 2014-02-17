@@ -1,0 +1,100 @@
+{
+  "id": "2b527bc32157c6a7ce7aa6137c8e901f",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "2b527bc32157c6a7ce7aa6137c8e901f",
+      "creator": "",
+      "title": "infomesh demo",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-17T12:01:15.484Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_6ee0144eaa59247a515caab70959eec8"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Start typing kasdf laksdjf alskd fjlkadsf"
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "John Doe",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "text_fb439558ef83a575c1f90c096a848554": {
+      "type": "text",
+      "id": "text_fb439558ef83a575c1f90c096a848554",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_6ee0144eaa59247a515caab70959eec8": {
+      "type": "figure",
+      "id": "figure_6ee0144eaa59247a515caab70959eec8",
+      "image": "figure_6ee0144eaa59247a515caab70959eec8.png",
+      "image_url": "",
+      "label": "Figure 1",
+      "caption": "text_fb439558ef83a575c1f90c096a848554"
+    },
+    "figure_6ee0144eaa59247a515caab70959eec8.png": {
+      "type": "blob_reference",
+      "id": "figure_6ee0144eaa59247a515caab70959eec8.png",
+      "path": [
+        "figure_6ee0144eaa59247a515caab70959eec8",
+        "image"
+      ],
+      "blob": "blob_7b4be2db3eef304c9f3d0e6569d76b76"
+    }
+  }
+}
