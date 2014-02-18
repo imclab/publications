@@ -1,0 +1,90 @@
+{
+  "id": "67a282ce07fc4919265816ef677b5f98",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "67a282ce07fc4919265816ef677b5f98",
+      "creator": "",
+      "title": "Untitasdfasdfasdfled",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-18T22:52:49.598Z",
+      "updated_at": "2014-02-18T23:14:23.617Z",
+      "published_on": "2014-02-18T23:14:23.616Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1",
+        "81162c119e3b046cf55f59a16ab9beaa"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Start tasdfadsfasdfasdf asdfyping"
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "John Doe",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "publish_settings.json": {
+      "type": "blob_reference",
+      "id": "publish_settings.json",
+      "path": null,
+      "blob": "publish_settings.json"
+    },
+    "81162c119e3b046cf55f59a16ab9beaa": {
+      "type": "text",
+      "id": "81162c119e3b046cf55f59a16ab9beaa",
+      "source_id": "",
+      "content": "johasdfan be.asfdsadf"
+    }
+  }
+}
