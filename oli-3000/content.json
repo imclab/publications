@@ -1,0 +1,99 @@
+{
+  "id": "090b76e7e9ceb8480da5d221999b4b89",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "090b76e7e9ceb8480da5d221999b4b89",
+      "creator": "",
+      "title": "OLI 3000",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-20T14:17:08.767Z",
+      "updated_at": "2014-02-20T14:18:58.031Z",
+      "published_on": "2014-02-20T14:18:58.031Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_b062ce5a41a996299b522c42c39cadcf"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Start tyasdfa sdfping"
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "John Doe",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "text_b92d0f38b52f35c92acaf16a05e0c6eb": {
+      "type": "text",
+      "id": "text_b92d0f38b52f35c92acaf16a05e0c6eb",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_b062ce5a41a996299b522c42c39cadcf": {
+      "type": "figure",
+      "id": "figure_b062ce5a41a996299b522c42c39cadcf",
+      "image": "figure_b062ce5a41a996299b522c42c39cadcf.png",
+      "image_url": "",
+      "label": "Figure 1",
+      "caption": "text_b92d0f38b52f35c92acaf16a05e0c6eb"
+    },
+    "figure_b062ce5a41a996299b522c42c39cadcf.png": {
+      "type": "file",
+      "id": "figure_b062ce5a41a996299b522c42c39cadcf.png",
+      "data": "figure_b062ce5a41a996299b522c42c39cadcf.png",
+      "content_type": "image/png"
+    }
+  }
+}
