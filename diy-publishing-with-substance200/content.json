@@ -1,0 +1,445 @@
+{
+  "id": "d05ddb3b99544b00b7335edb060301e0",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "d05ddb3b99544b00b7335edb060301e0",
+      "creator": "",
+      "title": "DIY Publishing with Substance",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-14T18:33:58.523Z",
+      "updated_at": "2014-02-20T13:37:08.852Z",
+      "published_on": "2014-02-20T13:37:08.852Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "heading_30361c2b07cf2be01be30a60f8807b17",
+        "f8d8694dee8236b4c52d24be2c78c0d1",
+        "heading_1f20f22fca4356a4c1f78067a75c44fe",
+        "0c2cb6d776a476db92bcb244b519a531",
+        "heading_9118e99d3298e6ea2a375c6fff254582",
+        "55f1fe6d8ed199e38af97261dd0afd28"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_41fe7709fd0c1c53e1c5db05fb871882",
+        "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b",
+        "figure_e33757cfee5513dc1b238eae2a5cde74"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": [
+        "remark_5bb81f7a93819aae3f17bbb867796cb2"
+      ]
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "Michael Aufreiter",
+      "role": "author",
+      "organization": "Substance Software GmbH",
+      "image": "contributor_1.png",
+      "email": "michael@substance.io"
+    },
+    "heading_30361c2b07cf2be01be30a60f8807b17": {
+      "type": "heading",
+      "id": "heading_30361c2b07cf2be01be30a60f8807b17",
+      "source_id": "",
+      "content": "Create a document",
+      "level": 1
+    },
+    "f8d8694dee8236b4c52d24be2c78c0d1": {
+      "type": "text",
+      "id": "f8d8694dee8236b4c52d24be2c78c0d1",
+      "source_id": "",
+      "content": "You can use the current alpha version of the Substance Composer to compose a document. It's easy very easy to get started."
+    },
+    "heading_1f20f22fca4356a4c1f78067a75c44fe": {
+      "type": "heading",
+      "id": "heading_1f20f22fca4356a4c1f78067a75c44fe",
+      "source_id": "",
+      "content": "Publish your document",
+      "level": 1
+    },
+    "0c2cb6d776a476db92bcb244b519a531": {
+      "type": "text",
+      "id": "0c2cb6d776a476db92bcb244b519a531",
+      "source_id": "",
+      "content": "In order to publish your document the export button in the Composer interface to store the document you just created. Substance documents are interactive web-publications out of the box. Once unzipped you can put them on a web-server."
+    },
+    "text_d7f95c3062bcbe77420bdb871c282527": {
+      "type": "text",
+      "id": "text_d7f95c3062bcbe77420bdb871c282527",
+      "source_id": "",
+      "content": "The Substance Composer lets you Store your Substance documents on disk using the Export feature in the Composer. You receive a .sdf.zip file named after the document's title."
+    },
+    "figure_41fe7709fd0c1c53e1c5db05fb871882": {
+      "type": "figure",
+      "id": "figure_41fe7709fd0c1c53e1c5db05fb871882",
+      "image": "figure_41fe7709fd0c1c53e1c5db05fb871882.png",
+      "image_url": "",
+      "label": "The Substance Composer",
+      "caption": "text_d7f95c3062bcbe77420bdb871c282527"
+    },
+    "figure_reference_5c433fa78dfd0e9b9197c4119b2348a9": {
+      "type": "figure_reference",
+      "id": "figure_reference_5c433fa78dfd0e9b9197c4119b2348a9",
+      "path": [
+        "f8d8694dee8236b4c52d24be2c78c0d1",
+        "content"
+      ],
+      "range": [
+        45,
+        63
+      ],
+      "target": "figure_41fe7709fd0c1c53e1c5db05fb871882"
+    },
+    "text_8319dccee2025e5f586aebb6c7dbd9bd": {
+      "type": "text",
+      "id": "text_8319dccee2025e5f586aebb6c7dbd9bd",
+      "source_id": "",
+      "content": "Substance documents are just regular zip archives. Once extracted they look like shown above. A. The content.json file stores the actual content and structure of your documents. B. The index.html file starts a Subtance Reader instance, and enables you publish your documents online. It works with any webserver. C. Substance documents are self-contained and store the assets such as images in regular binary files."
+    },
+    "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b": {
+      "type": "figure",
+      "id": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b",
+      "image": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b.png",
+      "image_url": "",
+      "label": "The anatomy of a Substance Document",
+      "caption": "text_8319dccee2025e5f586aebb6c7dbd9bd"
+    },
+    "code_dc2b3946b8647aa2208ee91f955b628e": {
+      "type": "code",
+      "id": "code_dc2b3946b8647aa2208ee91f955b628e",
+      "path": [
+        "text_d7f95c3062bcbe77420bdb871c282527",
+        "content"
+      ],
+      "range": [
+        127,
+        135
+      ]
+    },
+    "strong_c2f0ff08f9da767eaea5bb2391e97906": {
+      "type": "strong",
+      "id": "strong_c2f0ff08f9da767eaea5bb2391e97906",
+      "path": [
+        "text_d7f95c3062bcbe77420bdb871c282527",
+        "content"
+      ],
+      "range": [
+        81,
+        87
+      ]
+    },
+    "strong_40bada7fd659e43a1def2a66a051cb15": {
+      "type": "strong",
+      "id": "strong_40bada7fd659e43a1def2a66a051cb15",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        94,
+        96
+      ]
+    },
+    "code_8773b891f3e34429297fb9e1dc366655": {
+      "type": "code",
+      "id": "code_8773b891f3e34429297fb9e1dc366655",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        185,
+        195
+      ]
+    },
+    "code_a56b02cd16d559759467c78c37b39095": {
+      "type": "code",
+      "id": "code_a56b02cd16d559759467c78c37b39095",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        101,
+        113
+      ]
+    },
+    "strong_909b2c5409964b9bcfe238aedf7077d4": {
+      "type": "strong",
+      "id": "strong_909b2c5409964b9bcfe238aedf7077d4",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        312,
+        314
+      ]
+    },
+    "strong_d9987deb32968a6bbd27e3b995de6f7a": {
+      "type": "strong",
+      "id": "strong_d9987deb32968a6bbd27e3b995de6f7a",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        178,
+        180
+      ]
+    },
+    "link_6bee13f33c37b200bf3792db4856c855": {
+      "type": "link",
+      "id": "link_6bee13f33c37b200bf3792db4856c855",
+      "path": [
+        "f8d8694dee8236b4c52d24be2c78c0d1",
+        "content"
+      ],
+      "range": [
+        24,
+        37
+      ],
+      "url": "http://substance.io/composer-alpha2"
+    },
+    "figure_reference_900a071c02e4f6e1abdcffeee1f91a95": {
+      "type": "figure_reference",
+      "id": "figure_reference_900a071c02e4f6e1abdcffeee1f91a95",
+      "path": [
+        "0c2cb6d776a476db92bcb244b519a531",
+        "content"
+      ],
+      "range": [
+        38,
+        51
+      ],
+      "target": "figure_41fe7709fd0c1c53e1c5db05fb871882"
+    },
+    "emphasis_007decfce4c367ccd96f4dc3ffa45cb0": {
+      "type": "emphasis",
+      "id": "emphasis_007decfce4c367ccd96f4dc3ffa45cb0",
+      "path": [
+        "0c2cb6d776a476db92bcb244b519a531",
+        "content"
+      ],
+      "range": [
+        142,
+        153
+      ]
+    },
+    "heading_9118e99d3298e6ea2a375c6fff254582": {
+      "type": "heading",
+      "id": "heading_9118e99d3298e6ea2a375c6fff254582",
+      "source_id": "",
+      "content": "Enjoy the interactive reading experience",
+      "level": 1
+    },
+    "55f1fe6d8ed199e38af97261dd0afd28": {
+      "type": "text",
+      "id": "55f1fe6d8ed199e38af97261dd0afd28",
+      "source_id": "",
+      "content": "Published Substance documents, are presented in a minimal interactive reading interface. They look beautiful on mobile too! And they are indexed by Google, as soon as other websites start linking to them."
+    },
+    "fc11c340d9f65d0fd721f08af1aa4e5c": {
+      "type": "text",
+      "id": "fc11c340d9f65d0fd721f08af1aa4e5c",
+      "source_id": "",
+      "content": "Writing and publishing interactive documents has never been easier. In this little guide I will walk you through the stepasdfasdfs needed to create your first publication. In order to learn more about the Substance project see here: Beyond simulating paper."
+    },
+    "text_079d3b34b7246a3e25617bb690ed38e7": {
+      "type": "text",
+      "id": "text_079d3b34b7246a3e25617bb690ed38e7",
+      "source_id": "",
+      "content": "The Substance Reader presents the article in a minimal layout and lets you explore figures and figure descriptions – without losing your place in the article text. While most online articles simply replicate print, the Substance Reader provides an interactive reading experience."
+    },
+    "figure_e33757cfee5513dc1b238eae2a5cde74": {
+      "type": "figure",
+      "id": "figure_e33757cfee5513dc1b238eae2a5cde74",
+      "image": "figure_e33757cfee5513dc1b238eae2a5cde74.png",
+      "image_url": "",
+      "label": "Substance Reader",
+      "caption": "text_079d3b34b7246a3e25617bb690ed38e7"
+    },
+    "figure_reference_fa804baa4e1d792f0083bf09540c4e49": {
+      "type": "figure_reference",
+      "id": "figure_reference_fa804baa4e1d792f0083bf09540c4e49",
+      "path": [
+        "55f1fe6d8ed199e38af97261dd0afd28",
+        "content"
+      ],
+      "range": [
+        58,
+        87
+      ],
+      "target": "figure_e33757cfee5513dc1b238eae2a5cde74"
+    },
+    "figure_reference_0b05f9eb9412496d6b073decbe515a80": {
+      "type": "figure_reference",
+      "id": "figure_reference_0b05f9eb9412496d6b073decbe515a80",
+      "path": [
+        "0c2cb6d776a476db92bcb244b519a531",
+        "content"
+      ],
+      "range": [
+        192,
+        200
+      ],
+      "target": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b"
+    },
+    "link_7d8eb5bcd0dd57b1bdb7b2f6f736e221": {
+      "type": "link",
+      "id": "link_7d8eb5bcd0dd57b1bdb7b2f6f736e221",
+      "path": [
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "content"
+      ],
+      "range": [
+        233,
+        256
+      ],
+      "url": "http://substance.io/beyond-simulating-paper"
+    },
+    "link_8a5b3844b76d8742b9f5f993ace4b92c": {
+      "type": "link",
+      "id": "link_8a5b3844b76d8742b9f5f993ace4b92c",
+      "path": [
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "content"
+      ],
+      "range": [
+        205,
+        214
+      ],
+      "url": "http://substance.io"
+    },
+    "figure_41fe7709fd0c1c53e1c5db05fb871882.png": {
+      "type": "file",
+      "id": "figure_41fe7709fd0c1c53e1c5db05fb871882.png",
+      "data": "e26e4f7e3189327baa9676cead9d88d1",
+      "content_type": "image/png"
+    },
+    "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b.png": {
+      "type": "file",
+      "id": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b.png",
+      "data": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b.png",
+      "content_type": "image/png"
+    },
+    "figure_e33757cfee5513dc1b238eae2a5cde74.png": {
+      "type": "file",
+      "id": "figure_e33757cfee5513dc1b238eae2a5cde74.png",
+      "data": "figure_e33757cfee5513dc1b238eae2a5cde74.png",
+      "content_type": "image/png"
+    },
+    "contributor_1.png": {
+      "type": "file",
+      "id": "contributor_1.png",
+      "data": "4480be22799831c9540ddc7481a34119",
+      "content_type": "image/png"
+    },
+    "remark_5bb81f7a93819aae3f17bbb867796cb2": {
+      "type": "remark",
+      "id": "remark_5bb81f7a93819aae3f17bbb867796cb2",
+      "title": "",
+      "description": "",
+      "creator": "Michael Aufreiter",
+      "created_at": "2014-02-20T12:59:26.144Z"
+    },
+    "remark_reference_e341fa52ab026d853fdfa3fcbbf4c7f3": {
+      "type": "remark_reference",
+      "id": "remark_reference_e341fa52ab026d853fdfa3fcbbf4c7f3",
+      "path": [
+        "heading_30361c2b07cf2be01be30a60f8807b17",
+        "content"
+      ],
+      "range": [
+        9,
+        17
+      ],
+      "target": "remark_5bb81f7a93819aae3f17bbb867796cb2"
+    },
+    "strong_1fd6b1fd93ed3fe66fee22530ae15f28": {
+      "type": "strong",
+      "id": "strong_1fd6b1fd93ed3fe66fee22530ae15f28",
+      "path": [
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "content"
+      ],
+      "range": [
+        184,
+        189
+      ]
+    },
+    "subscript_5eb0cdfe9087243a2b92b346cd1645a4": {
+      "type": "subscript",
+      "id": "subscript_5eb0cdfe9087243a2b92b346cd1645a4",
+      "path": [
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "content"
+      ],
+      "range": [
+        76,
+        82
+      ]
+    },
+    "superscript_d25fafc2cb34f79b62a7f31fdea8d8d8": {
+      "type": "superscript",
+      "id": "superscript_d25fafc2cb34f79b62a7f31fdea8d8d8",
+      "path": [
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "content"
+      ],
+      "range": [
+        91,
+        95
+      ]
+    },
+    "publish_settings.json": {
+      "type": "file",
+      "id": "publish_settings.json",
+      "data": "publish_settings.json",
+      "content_type": "application/json"
+    }
+  }
+}
